@@ -50,6 +50,7 @@ public class Robot extends SampleRobot {
     m_chooser.addDefault("Default Auto", kDefaultAuto);
     m_chooser.addObject("My Auto", kCustomAuto);
     SmartDashboard.putData("Auto modes", m_chooser);
+    SmartDashboard.putString("Key","Here is my branch");
   }
 
   /**
